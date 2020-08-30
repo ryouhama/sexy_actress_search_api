@@ -26,7 +26,7 @@ DMM_API_AFFILIATE_ID = env.get_value('DMM_API_AFFILIATE_ID')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'uh27rp(va558y4enk!n*hk(h(nh=z_+u6#lqz+z34b4z9gyto4'
+SECRET_KEY = env.get_value('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
